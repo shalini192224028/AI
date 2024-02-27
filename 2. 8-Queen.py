@@ -1,4 +1,4 @@
-e 8-Puzzledef is_safe(board, row, col, N):
+def is_safe(board, row, col, N):
     for i in range(col):
         if board[row][i] == 1:
             return False
